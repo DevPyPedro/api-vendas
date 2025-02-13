@@ -1,7 +1,7 @@
 # API de Vendas
 
 ## Descrição do Projeto
-Esta é uma API desenvolvida em Python para gerenciar uma aplicação de vendas. O objetivo é fornecer um sistema eficiente para cadastrar vendedores, clientes, itens disponíveis para compra e registrar as vendas realizadas.
+Esta é uma API desenvolvida em Python para gerenciar uma aplicação de vendas. O objetivo é fornecer uma arquitetura limpa e um sistema eficiente para cadastrar vendedores, clientes, itens disponíveis para compra e registrar as vendas realizadas.
 
 ## Tecnologias Utilizadas
 - **Python**
