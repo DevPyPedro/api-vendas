@@ -20,8 +20,9 @@ Esta é uma API desenvolvida em Python para gerenciar uma aplicação de vendas.
 ## Como Executar o Projeto
 ### Requisitos
 - Python 3.8+
-- Banco de Dados PostgreSQL (ou SQLite para testes)
+- Banco de Dados PostgreSQL alocado em algum servidor ou na nuvem  (Caso não tenha um servidor, suba um container com PostgreSQL pelo wsl)
 - Dependências do projeto (listadas em `requirements.txt`)
+
 
 ### Instalação e Execução
 1. Clone o repositório:
