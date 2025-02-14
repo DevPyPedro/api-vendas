@@ -1,8 +1,8 @@
 import pandas as pd #type: ignore
 import logging
 
-from interfaces.conn_repository_interface import IDatabaseRepository
-from settings.conn import PGconnectionHandler
+from src.infraestructure.database.interfaces.conn_repository_interface import IDatabaseRepository
+from src.infraestructure.database.settings.conn import PGconnectionHandler
 
 class DatabaseRepository(IDatabaseRepository):
     
