@@ -13,3 +13,10 @@ class ClientRepository(IClientRepository):
         result = self.conn.run_query(query=[query], will_return=True)
         result_dict = result.to_dict("records")
         return result_dict
+    
+    def get_client_by_id(self, idcliente: int)->dict:
+        '''Retornda um cliente pelo id '''
+        query = f'''select * from relacional.clientes as cliente where cliente.idcliente ={idcliente}'''
+        result = self.conn.run_query(query=[query], will_return=True)
+        result_dict = result.to_dict("records")
+        return result_dict
